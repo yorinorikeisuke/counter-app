@@ -26,7 +26,7 @@ class Home extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Counter example')),
+      appBar: AppBar(title: const Text('Counter')),
       body: Center(
         // Consumer is a widget that allows you reading providers.
         child: Consumer(builder: (context, ref, _) {
